@@ -11,6 +11,6 @@ llm = OpenAI(model_name="text-davinci-003", temperature=0.0)
 # Generate a simple message
 response = llm("Say 'Hello, World!'")
 
-# Print the result
+# Print the results
 print(response)
 
