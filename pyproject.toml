@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-langchain"
+version = "0.1.0"
+description = ""
+authors = ["Muneer Iqbal <muneeriqbal729@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.2.33"
+langchain-community = "^0.2.12"
+langchain-openai = "^0.1.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
